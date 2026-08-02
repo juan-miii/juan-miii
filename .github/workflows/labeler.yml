@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Checkout your repository using git
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 
       - name: Run Labeler
-        uses: actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b
+        uses: actions/labeler@bf12e9b00b37c5c0ca2b87b79b2daf7891dbda13
         with:
           configuration-path: ".github/labeler.yml"
 
