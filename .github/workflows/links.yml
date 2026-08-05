@@ -24,7 +24,7 @@ jobs:
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8
         with:
           # Check all markdown, html files in repo
-          args: "--verbose './**/*.md' './**/*.html'"
+          args: "--verbose .github/README.md '**/*.md' '**/*.html'"
           # Use makdown as output format (easier to work on issues)
           format: markdown
           # Don't fail action on broken links
